@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>QtGuiAdditionClass</class>
+ <widget class="QMainWindow" name="QtGuiAdditionClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>588</width>
+    <height>362</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>QtGuiAddition</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QLabel" name="lbSummand1">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>52</y>
+      <width>101</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Erster Summand</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbSummand2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>120</y>
+      <width>111</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Zweiter Summand</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lbSumme">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>230</y>
+      <width>51</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Summe</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbSummand1">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>50</y>
+      <width>201</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbSummand2">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>115</y>
+      <width>201</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="tbSumme">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>227</y>
+      <width>201</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btAddition">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>170</y>
+      <width>461</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Zusammenzählen</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="QtGuiAddition.qrc"/>
+ </resources>
+ <connections/>
+ <slots>
+  <signal>addition()</signal>
+ </slots>
+</ui>
